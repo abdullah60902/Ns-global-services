@@ -39,6 +39,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
+        
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
           <motion.div
@@ -94,10 +95,10 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden z-50 relative">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-2xl text-gray-800"
+            className="text-2xl text-gray-800 relative z-50"
           >
             {menuOpen ? <HiX /> : <HiMenuAlt3 />}
           </button>
@@ -114,6 +115,9 @@ export default function Navbar() {
             transition={{ duration: 0.4, ease: 'easeInOut' }}
             className="md:hidden fixed top-0 right-0 h-full w-3/4 bg-white shadow-lg px-6 py-8 space-y-6 z-40"
           >
+            {/* Close button inside menu */}
+           
+
             {navLinks.map((link) => (
               <Link
                 key={link.name}
