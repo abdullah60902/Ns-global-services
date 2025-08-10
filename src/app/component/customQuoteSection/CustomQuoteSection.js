@@ -7,7 +7,7 @@ export default function CustomQuoteSection() {
         Need Something Custom?
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-        Have specific requirements that don't fit our standard plans? Let's create a custom solution tailored to your unique needs.
+        Have specific requirements that don{"'"}t fit our standard plans? Let{"'"}s create a custom solution tailored to your unique needs.
       </p>
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 mb-10">
@@ -18,7 +18,7 @@ export default function CustomQuoteSection() {
           </div>
           <h3 className="font-semibold mt-4">Unlimited Revisions</h3>
           <p className="text-gray-600 text-sm mt-1">
-            We work until you're 100% satisfied
+            We work until you{"'"}re 100% satisfied
           </p>
         </div>
 

@@ -8,7 +8,7 @@ export default function CTASection() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-gray-600 text-lg mb-8">
-          Let's discuss your project and create something amazing together.
+          Let{"'"}s discuss your project and create something amazing together.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
          <Link href="/Contact" className="inline-block">
